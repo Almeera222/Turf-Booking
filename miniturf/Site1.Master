@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="miniturf.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body background="" id="bg" bgcolor="White">
+    <form id="form1" runat="server">
+    <div class="pan1">
+        
+        <asp:Panel ID="Panel1" runat="server" > 
+        <asp:Image ID="Image1" runat="server" Height="122px" ImageAlign="Left" 
+                    ImageUrl="~/img/logo.png" Width="199px" style="margin-left: 26px" DescriptionUrl="~/Home Page.aspx" ForeColor="White" />
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <asp:Panel ID="Panel2" runat="server" Height="82px" style="margin-left: 292px" 
+                Width="943px">
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink 
+                    ID="Hlink1" runat="server" Font-Bold="True" 
+                    Font-Names="Monotype Corsiva" Font-Overline="False" Font-Size="XX-Large" 
+                    style="text-align: center; font-size: x-large; color: #6BB03C;" 
+                    ToolTip="Home page " NavigateUrl="~/Home Page.aspx">Home</asp:HyperLink>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="Hlink2" runat="server" Font-Bold="True" 
+                    Font-Names="Monotype Corsiva" Font-Overline="False" Font-Size="XX-Large" 
+                    style="text-align: center; font-size: x-large; color: #6BB03C;" 
+                    ToolTip="Book Now " NavigateUrl="~/BookNow.aspx">Book Now</asp:HyperLink>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="Hlink3" runat="server" Font-Bold="True" 
+                    Font-Names="Monotype Corsiva" Font-Overline="False" Font-Size="XX-Large" 
+                    style="text-align: center; font-size: x-large; color: #6BB03C;" 
+                    ToolTip="Contact Us ">Contact us</asp:HyperLink>
+
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <asp:HyperLink ID="HyperLink4" runat="server" Font-Bold="True" 
+                    Font-Names="Monotype Corsiva" Font-Overline="False" Font-Size="XX-Large" 
+                    style="text-align: center; font-size: x-large; color: #6BB03C;" 
+                    ToolTip="Location ">Location</asp:HyperLink>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" 
+                    Font-Names="Monotype Corsiva" Font-Overline="False" Font-Size="XX-Large" 
+                    style="text-align: center; font-size: x-large; color: #6BB03C;" 
+                    ToolTip="About Us ">About Us</asp:HyperLink>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="Hlink6" runat="server" Font-Bold="True" 
+                    Font-Names="Monotype Corsiva" Font-Overline="False" Font-Size="XX-Large" 
+                    style="text-align: center; font-size: x-large; color: #6BB03C;" 
+                    ToolTip="LogIn " NavigateUrl="~/Login .aspx">LogIn</asp:HyperLink>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </asp:Panel>
+        </asp:Panel>
+         
+        <!--start Main Content Placeholder -->
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+        <!--end  Main Content Placeholder -->
+        </div>
+      
+    </form>
+   
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿#bg
+{
+   height: 1056px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;  
+  
+  }
+  
+  .pan1
+  {
+          height: 103px;
+          width:1361px;
+    background: rgba(255,255,255,0.7);
+    
+    top: 0;
+    left :-8px;
+    
+    }
+    
+ 
